@@ -51,7 +51,7 @@ CREATE TABLE `tags` (
   `year` int unsigned DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `clip_tags_id` (`clip_id`),
-  FULLTEXT KEY `clip_tags` (`title`,`album`),
+  FULLTEXT KEY `clip_tags` (`title`,`album`,`artist`),
   CONSTRAINT `clip_tags_id` FOREIGN KEY (`clip_id`) REFERENCES `clips` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=68394 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
