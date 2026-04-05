@@ -6,9 +6,11 @@ The first table, `clips`, is used to store file name and path information and fl
 
 The second table, `tags`, is used to store data from each clip's metadata, including artist, album, title and year. The album and title columns are indexed for full-text search.
 
+**Note:** The primary version of this repository now resides on Codeberg as [marsupialgurgle-audio-parsing](https://codeberg.org/qlp/marsupialgurgle-audio-parsing). The GitHub repository is now a mirror of the Codeberg repository.
+
 ## Code of Conduct
 
-This project follows version 2.1 of the [Contributor Covenant's](https://www.contributor-covenant.org) Code of Conduct ([CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)).
+This project follows version 3.0 of the [Contributor Covenant's](https://www.contributor-covenant.org) Code of Conduct ([CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)).
 
 ## License
 
